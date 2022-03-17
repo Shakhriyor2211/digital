@@ -95,10 +95,10 @@ function About() {
   }, [id]);
 
   return (
-    <main className="grid lg:grid-cols-2 min-h-screen relative">
+    <main className="grid lg:grid-cols-2 min-h-screen relative px-6">
       <div className={`image hidden lg:block image${id}`}></div>
       {data ? (
-        <div className="flex flex-col lg:flex-row items-center justify-around px-2 gap-4">
+        <div className="flex flex-col lg:flex-row items-center justify-around gap-4">
           <div className="max-w-md max-h-96">
             <p className="text-3xl sm:text-5xl text-center font-medium lg:text-right">
               О компании
