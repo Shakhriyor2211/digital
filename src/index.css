@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image {
+  background-image: url(../public/image/background.png);
+}
+
+.image {
+  transition: all 0.5s;
+  background-position: center;
+  background-size: cover;
+}
+
+.image1 {
+  background-image: url(../public/image/pic1.png);
+}
+.image2 {
+  background-image: url(../public/image/pic2.png);
+}
+.image3 {
+  background-image: url(../public/image/pic3.png);
+}
+.image4 {
+  background-image: url(../public/image/pic4.png);
+}
+.image5 {
+  background-image: url(../public/image/pic5.png);
+}
+.image6 {
+  background-image: url(../public/image/pic6.png);
+}
+
+.bg {
+  background-image: url(../public/image/advantage.png);
+}
+
+.bg-app {
+  background-image: url(../public/image/application.png);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-link a::after {
+  content: "";
+  display: inline-block;
+  visibility: hidden;
+  background-color: #fff;
+  opacity: 0.5;
+  height: 2px;
+  width: 80%;
+}
+
+.nav-link .active a::after {
+  visibility: visible;
+}
+.nav-link .active a {
+  opacity: 1;
+}
