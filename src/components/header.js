@@ -17,10 +17,12 @@ function Header() {
   return (
     <header className="bg-white shadow-md">
       <div className="flex px-4 max-w-5xl mx-auto py-3">
-        <a href="#home" className=" flex-1 flex items-center gap-2">
-          <div>{logo}</div>
-          <p className="sm:text-xl font-semibold">Digital Flow</p>
-        </a>
+        <div className="flex-1 flex">
+          <a href="#home" className="flex items-center gap-2">
+            <div>{logo}</div>
+            <p className="sm:text-xl font-semibold">Digital Flow</p>
+          </a>
+        </div>
         <div className="flex items-center">
           <button
             onClick={() => {
