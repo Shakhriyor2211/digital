@@ -31,8 +31,8 @@ function Site() {
   }
 
   return (
-    <main className="min-h-screen flex flex-col justify-start md:justify-between relative px-2">
-      <p className="text-center text-5xl my-10">Сайты</p>
+    <main className="min-h-screen flex flex-col md:gap-y-12 md:mt-12 relative px-2">
+      <p className="text-center text-5xl">Сайты</p>
       <div className="flex flex-col flex-1 md:flex-initial md:flex-row gap-x-12 justify-around">
         <div className="w-full">
           <div
